@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Noughts and Crosses</string>
+    <string name="WhoNext">Первыми ходят крестики</string>
+    <string name="my_X">X</string>
+    <string name="my_0">0</string>
+    <string name="next_X">Ходят крестики</string>
+    <string name="next_0">Ходят нолики</string>
+    <string name="the_end">Ничья</string>
+    <string name="replay">повторить?</string>
+</resources>
