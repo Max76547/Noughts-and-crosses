@@ -27,8 +27,8 @@ jobs:
         ./gradlew assembleRelease
         ./gradlew bundleRelease
       
-    - name: CarTest Actions
+    - name: Noughts-and-crosses Actions
       uses: actions/upload-artifact@v2
       with:
-       name: app-release_car-test.apk
+       name: app-release_n-and-c-test.apk
        path: app/build/outputs/apk/release/app-release-unsigned.apk
