@@ -16,6 +16,13 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+
+    }
+
     buildTypes {
         release {
             minifyEnabled false

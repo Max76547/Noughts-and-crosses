@@ -2,7 +2,6 @@ package com.example.noughtsandcrosses;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -65,7 +64,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //добавляем х или 0 в поле для игры
-    @SuppressLint("NonConstantResourceId")
     private void addField(View view) {
 
         //условие для счета------------------------------------------------------------------------------
